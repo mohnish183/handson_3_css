@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Elements */
+body {
+  background-color: grey;
+}
+hr {
+  border: 2px double #fff;
+  border-left: none;
+  border-right: none;
+
+  height: 10px;
+  width: 98%;
+  margin: 0 auto 40px auto;
+}
+img {
+  margin: 32px 12px 2px 12px;
+}
+label {
+  display: inline-block;
+  margin: 8px 0px 28px 120px;
+  font-size: 22px;
+  color: blueviolet;
+}
+input[type="text"] {
+  height: 24px;
+  margin: 0px 72px 12px 72px;
+}
+button[type="submit"] {
+  margin: 0px 120px;
+  padding: 1px 12px;
+  width: 100px;
+  height: 32px;
+  border-radius: 8px; /* after giving border radius button is not working */
+  background-color: yellow;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* header part css */
+.top_container {
+  margin-bottom: 40px;
+}
+.header {
+  border: 8px solid red;
+  background-color: #fff;
+  box-shadow: 10px 10px rgb(172, 14, 58);
+  width: 30%;
+  height: 80px;
+  padding: 40px 0px 100px 60px;
+  margin: 8px auto;
+  border-radius: 12px;
+}
+.header_text {
+  width: 220px;
+  line-height: 2;
+  font-weight: bold;
+  margin: 0px auto;
+  color: rgb(150, 12, 12);
+  text-shadow: 2px 2px rgb(123, 50, 50);
+}
+
+/* middle container */
+.middle_container {
+  border: 8px solid green;
+  margin: 8px 32px 200px 32px;
+  position: relative;
+}
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+  margin-right: 80px;
+}
+.item {
+  height: 360px;
+  width: 320px;
+  border: 8px solid red;
+  border-radius: 12px;
+  box-shadow: 10px 10px rgb(172, 14, 58);
+  background-color: #fff;
+}
+.item p {
+  font-size: 32px;
+  color: blueviolet;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 16px 0px 0px 18px;
+  text-shadow: 2px 2px blueviolet;
+}
+.sticky {
+  position: fixed;
+  bottom: 80px;
+  top: 620px;
+  left: 450px;
+}
+.sticky_content {
+  height: 140px;
+  width: 580px;
+  border-radius: 12px;
+}
+.sticky_content h3 {
+  display: inline-block;
+  font-size: 28px;
+  width: 280px;
+  height: 120px;
+  line-height: 1.5;
+  color: rgb(172, 14, 58);
+  margin: 24px 0px 0px 60px;
+}
+.sticky_content p {
+  display: inline-block;
+  font-size: 22px;
+
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  color: rgb(172, 14, 58);
+  text-shadow: 0px 0px;
+}
+.rate_box {
+}
+.rate_box h3 {
+  font-size: 28px;
+  color: blueviolet;
+  margin: 16px 0px 12px 36px;
+}
+/* Lower container */
+
+.lower_container {
+  border: 8px solid purple;
+  width: 56%;
+  height: 620px;
+  margin: 0px auto 80px auto;
+  background-color: green;
+}
+.flex_block1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.lower_container hr {
+  border: 2px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.flex_block1 h1 {
+  flex-basis: 800px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.box1 h3,
+.box2 h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.box1 p,
+.box2 p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 12px;
+}
+
+.box1,
+.box2 {
+  background-color: yellow;
+  display: inline-block;
+  width: 412px;
+  height: 300px;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+}
+.box2 {
+  margin-left: 10px;
+}
+
+.block2 {
+  background-color: yellow;
+
+  width: 845px;
+  height: 224px;
+  border: 2px solid grey;
+  margin-left: 4px;
+}
+
+.block2 p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 12px;
+}
+
+.block2 h3 {
+  font-size: 24px;
+  text-align: center;
+}
