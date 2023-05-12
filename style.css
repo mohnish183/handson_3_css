@@ -95,7 +95,7 @@ button[type="submit"] {
 .sticky {
   position: fixed;
   bottom: 80px;
-  top: 620px;
+  top: 580px;
   left: 450px;
 }
 .sticky_content {
